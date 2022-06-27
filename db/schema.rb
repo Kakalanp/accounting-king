@@ -15,7 +15,6 @@ ActiveRecord::Schema[7.0].define(version: 2022_06_27_214030) do
   enable_extension "plpgsql"
 
   create_table "entities", force: :cascade do |t|
-    t.integer "authorId"
     t.string "name"
     t.float "amount"
     t.datetime "createdAt"
