@@ -1,0 +1,5 @@
+<nav class="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-800">
+  <ul>
+    <li><% if user_signed_in? %><a href="/users/sign_out">Log-out</a><% else %><a href="/users/sign_in">Login</a><% end %></li>
+  </ul>
+</nav>
