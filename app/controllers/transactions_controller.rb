@@ -4,6 +4,8 @@ class TransactionsController < ApplicationController
   end
 
   def show
+    @transaction = Entity.find(params['id'])
+    @category = Group.find(@transaction.group_id)
   end
 
   def new
