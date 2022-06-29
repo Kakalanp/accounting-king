@@ -1,1 +1,3 @@
 <%= button_to 'Add transactions into ' + @category.name, new_transaction_path, method:'get', params:[id: @category.id] %>
+
+<%= render partial: 'transactions/transaction', collection: @transactions %>
