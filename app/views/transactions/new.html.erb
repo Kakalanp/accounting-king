@@ -1,0 +1,10 @@
+<h1>New <%= @category.name %> transaction:</h1>
+
+<%= form_with model: @transaction, method:'post', class:'form',url: transactions_path do |form| %>
+      <%= form.text_field :name, placeholder: 'Name', :required => true %>
+      <%= form.text_field :amount, placeholder: 'Amount', :required => true %>
+      <%= form.hidden_field :group_id, :value => @category.id %>
+      <%= form.submit "Submit" %>
+    <% end %>
+
+    <%=@category.id%>
