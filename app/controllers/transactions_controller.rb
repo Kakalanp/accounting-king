@@ -1,11 +1,13 @@
 class TransactionsController < ApplicationController
   def index
+    @transactions = Entity.where(user: current_user)
   end
 
   def show
   end
 
   def new
+    @category = Group.find(params['id'])
     @transaction = Entity.new
   end
 
@@ -22,6 +24,6 @@ class TransactionsController < ApplicationController
   private
 
   def transaction_params
-    params.require(:entity).permit(:user, :group, :name, :icon).reverse_merge(user: current_user)
+    params.require(:entity).permit(:user, :group_id, :name, :amount).reverse_merge(user: current_user)
   end
 end
