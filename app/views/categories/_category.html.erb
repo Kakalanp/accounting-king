@@ -1,8 +1,8 @@
 <div>
-  <img src=<%category.icon%>>
+  <img src=<%=category.icon%>>
   <div>
     <% total = 0 %>
-    <span><h3><%= category.name %></h3><p><% category.entities.each do |entity| total += entity.amount end%> <%= total %></p></span>
-    <p><%= category.createdAt %></p>
+    <h3><%= category.name %></h3>
+    <p><% category.entities.each do |entity| total += entity.amount end%>Total: <%= total %></p>
   </div>
 </div>
