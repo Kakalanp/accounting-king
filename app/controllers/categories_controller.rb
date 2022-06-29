@@ -3,6 +3,11 @@ class CategoriesController < ApplicationController
     @categories = Group.includes(:entities).where(user: current_user)
   end
 
+  def show
+    @category = Group.find(params['id'])
+    @transactions = Entity.where(user: current_user, group: @category)
+  end
+
   def new
     @category = Group.new
   end
