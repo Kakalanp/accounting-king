@@ -4,5 +4,5 @@ Rails.application.routes.draw do
 
   devise_for :users
 
-  resources :splash_screen, :categories
+  resources :splash_screen, :categories, :transactions
 end
