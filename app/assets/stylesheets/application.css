@@ -27,15 +27,25 @@ form > * {
 }
 
 .notice {
-  background-color: rgba(95, 181, 35, 0.75);
+  background-color: rgba(95, 181, 35, 0.8);
+  padding: 10px;
+  border-radius: 0 30px 30px 0;
   color: white;
   font-weight: bold;
+  position: fixed;
+  bottom: 0;
+  left: 0;
 }
 
 .alert {
-  background-color: rgba(214, 0, 0, 0.75);
+  background-color: rgba(214, 0, 0, 0.8);
+  padding: 10px;
+  border-radius: 0 30px 30px 0;
   color: white;
   font-weight: bold;
+  position: fixed;
+  bottom: 0;
+  left: 0;
 }
 
 .main {
