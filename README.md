@@ -1,24 +1,78 @@
-# README
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Accounting King
 
-Things you may want to cover:
+> This web app to keep track of your expenses! :smiley:
 
-* Ruby version
+<img src="./screenshot.png" width="300" alt="mockup">
 
-* System dependencies
+This web app allows you to keep track of your expenses by letting you create categories in your account, where you can then add transactions and their dates.
 
-* Configuration
+## Built With: 🔍
 
-* Database creation
+- Ruby
+- Rails
+- JavaScript
+- Html
+- Css
+- Heroku
 
-* Database initialization
+## Live Demo: 📄
 
-* How to run the test suite
+[Accounting King](https://accountingking.herokuapp.com/)
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
+## Getting Started
 
-* ...
+ To get a local copy up and running follow these simple example steps.
+- git clone  `https://github.com/Kakalanp/accounting-king.git`
+
+- change to the directory using `cd accounting-king`
+
+- open with your preffered code editor.
+
+
+### Prerequisites: 🤓
+
+- Ruby
+- Rails
+- Postgresql
+
+### Setup: ⚙️
+
+- Start by opening the project using `cd accounting-king`
+
+- Run `bundle i`
+
+- Then `rails db:create`
+
+- Followed by `rails db:migrate`
+
+- You're now ready to run the server with `rails s`
+
+## Author: 👋
+
+### 👤 Joaquin G.L. Zanetti
+- GitHub: [@Kakalanp](https://github.com/Kakalanp)
+- Twitter: [@LeccaJoaquin](https://twitter.com/LeccaJoaquin)
+- LinkedIn: [Joaquín Garrido Lecca Zanetti](https://www.linkedin.com/in/joaquin-garrido-lecca-zanetti/)
+
+## Contributing: 🤝
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support: 🌟
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments: 📝
+
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
+
+## License: :monocle_face:
+
+This project is [MIT](./LICENSE) licensed.
