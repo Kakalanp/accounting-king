@@ -94,6 +94,7 @@ form > * {
     border: solid 2px lightgray;
     height: 100px;
     color: grey;
+    cursor: pointer;
     box-shadow: 3px 3px 7px 0 rgba(0,0,0,0.5);
 }
 
@@ -122,6 +123,10 @@ form > * {
   border-radius: 5px;
   min-height: 50vh;
   justify-content: space-between
+}
+
+.transaction h1 {
+  cursor: pointer;
 }
 
 .transaction h2 {
