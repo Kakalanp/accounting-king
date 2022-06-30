@@ -100,12 +100,13 @@ form > * {
 
 .item > img {
   width: 25%;
+  max-height: 100%;
   max-width: 120px;
 }
 
 .item > span {
   padding-left: 5%;
-  min-width: 75%;
+  width: 75%;
   display: flex;
   align-items: center;
   justify-content: space-between;
