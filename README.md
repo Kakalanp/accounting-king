@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Accounting King
+# Accounting King :crown:
 
 > This web app to keep track of your expenses! :smiley:
 
