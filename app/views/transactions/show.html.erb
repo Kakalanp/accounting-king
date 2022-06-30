@@ -1,7 +1,9 @@
-<h1 onclick="window.location='/categories/<%=@category.id%>'"><%= @transaction.name %>( <%= @category.name  %> )</h1>
+<div class="transaction">
+<h1 onclick="window.location='/categories/<%=@category.id%>'" class="transaction-title">
+  <%= @transaction.name %>( <%= @category.name  %> )
+</h1>
 
-<h3>from <%= @transaction.created_at %></h3>
+<h2>Amount spent: <%= @transaction.amount %></h2>
 
-<p>Amount spent: <%= @transaction.amount %></p>
-
-<p>Last updated at: <%= @transaction.updated_at %></p>
+<p>From: <%= @transaction.created_at %>, Last updated at: <%= @transaction.updated_at %></p>
+</div>
