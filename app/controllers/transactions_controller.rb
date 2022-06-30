@@ -17,7 +17,7 @@ class TransactionsController < ApplicationController
     transaction = Entity.new(transaction_params)
 
     if transaction.save
-      redirect_to root_path, notice: 'Transaction added successfully'
+      redirect_to category_path(transaction.group_id), notice: 'Transaction added successfully'
     else
       render new, alert: 'Transaction could not be added successfully'
     end
