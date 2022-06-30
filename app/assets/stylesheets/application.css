@@ -1,9 +1,9 @@
 h1 {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 b {
-    color: black;
+  color: black;
 }
 
 form {
@@ -18,12 +18,12 @@ form > * {
 }
 
 [type="submit"] {
-    color: white;
-    font-weight: 600;
-    background-color: #5fb523 !important;
-    border: 1px solid white;
-    padding: 8px;
-    box-shadow: 0 0 8px 2px rgba(0,0,0,0.3) inset;
+  color: white;
+  font-weight: 600;
+  background-color: #5fb523 !important;
+  border: 1px solid white;
+  padding: 8px;
+  box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.3) inset;
 }
 
 .notice {
@@ -59,57 +59,57 @@ form > * {
 }
 
 .main > * {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .header {
-    width: 100%;
-    height: 80px;
-    position: fixed;
-    top: 0;
-    box-shadow: 0 3px 10px 1px rgba(0,0,0,0.6);
-    background-color: #3778c2;
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  top: 0;
+  box-shadow: 0 3px 10px 1px rgba(0, 0, 0, 0.6);
+  background-color: #3778c2;
 }
 
 .navbar {
-    height: 100%;
-    display: flex;
-    justify-content: space-around;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
 }
 
 .navbar > * {
-    color: white;
-    align-self: center;
-    font-size: 1.2rem;
-    font-weight: 600;
+  color: white;
+  align-self: center;
+  font-size: 1.2rem;
+  font-weight: 600;
 }
 
 .item {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 70%;
-    background-color: white;
-    padding: 10px;
-    border: solid 2px lightgray;
-    height: 100px;
-    color: grey;
-    cursor: pointer;
-    box-shadow: 3px 3px 7px 0 rgba(0,0,0,0.5);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 70%;
+  background-color: white;
+  padding: 10px;
+  border: solid 2px lightgray;
+  height: 100px;
+  color: grey;
+  cursor: pointer;
+  box-shadow: 3px 3px 7px 0 rgba(0, 0, 0, 0.5);
 }
 
 .item > img {
-    width: 25%;
-    max-width: 120px;
+  width: 25%;
+  max-width: 120px;
 }
 
 .item > span {
-    padding-left: 5%;
-    min-width: 75%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    overflow: hidden;
+  padding-left: 5%;
+  min-width: 75%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
 }
 
 .transaction {
@@ -122,7 +122,7 @@ form > * {
   padding: 20px;
   border-radius: 5px;
   min-height: 50vh;
-  justify-content: space-between
+  justify-content: space-between;
 }
 
 .transaction h1 {
@@ -130,10 +130,10 @@ form > * {
 }
 
 .transaction h2 {
-    font-size: 1.5rem;
-    text-decoration: underline;
+  font-size: 1.5rem;
+  text-decoration: underline;
 }
 
 .transaction p {
-    color: grey;
+  color: grey;
 }
