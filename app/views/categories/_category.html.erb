@@ -3,6 +3,6 @@
   <span>
     <h3><%= category.name %></h3>
     <% total = 0 %>
-    <p><b><% Entity.where(group_id: category.id).each do |entity| total += entity.amount end%>Total: <%= total %></b></p>
+    <p><b><% Entity.where(group_id: category.id).each do |entity| total += entity.amount end%>Total: $<%= total %></b></p>
   </div>
 </div>
