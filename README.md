@@ -18,8 +18,9 @@ This web app allows you to keep track of your expenses by letting you create cat
 - Heroku
 
 ## Live Demo: 📄
+- [Video guide](https://www.loom.com/share/1fdd5ae82b504340850e1023772d7492)
 
-[Accounting King](https://accountingking.herokuapp.com/)
+- [Accounting King](https://accountingking.herokuapp.com/)
 
 
 ## Getting Started
