@@ -1,4 +1,4 @@
-<div onclick="window.location='/transactions/<%=transaction.id%>'">
-  <span><p><%= transaction.name %></p><p><%= transaction.amount %></p></span>
+<div onclick="window.location='/transactions/<%=transaction.id%>'" class="item">
+  <span><p><%= transaction.name %></p><p><b>$<%= transaction.amount %></b></p></span>
   <span><%= transaction.updated_at %></span>
 </div>

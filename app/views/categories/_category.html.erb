@@ -1,8 +1,8 @@
-<div onclick="window.location='/categories/<%=category.id%>'">
+<div onclick="window.location='/categories/<%=category.id%>'" class="item">
   <img src=<%=category.icon%>>
-  <div>
-    <% total = 0 %>
+  <span>
     <h3><%= category.name %></h3>
-    <p><% Entity.where(group_id: category.id).each do |entity| total += entity.amount end%>Total: <%= total %></p>
+    <% total = 0 %>
+    <p><b><% Entity.where(group_id: category.id).each do |entity| total += entity.amount end%>Total: $<%= total %></b></p>
   </div>
 </div>
