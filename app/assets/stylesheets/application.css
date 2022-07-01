@@ -26,6 +26,10 @@ form > * {
   box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.3) inset;
 }
 
+img[src=""] {
+  content: url("http://cdn.onlinewebfonts.com/svg/img_554492.png");
+}
+
 .notice {
   background-color: rgba(95, 181, 35, 0.8);
   padding: 10px;
