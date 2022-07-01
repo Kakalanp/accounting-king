@@ -71,8 +71,8 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments: 📝
 
 - Hat tip to anyone whose code was used
-- Inspiration
-- etc
+
+- Thanks to [Gregoire Vella](https://www.behance.net/gregoirevella) for creating [this fantastic design](https://www.behance.net/gallery/19759151/Snapscan-iOs-design-and-branding?tracking_source=) that this project was based on!
 
 ## License: :monocle_face:
 
