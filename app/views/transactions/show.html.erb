@@ -1,0 +1,9 @@
+<div class="transaction">
+<h1 onclick="window.location='/categories/<%=@category.id%>'" class="transaction-title">
+  <%= @transaction.name %>( <%= @category.name  %> )
+</h1>
+
+<h2>Amount spent: $<%= @transaction.amount %></h2>
+
+<p>From: <%= @transaction.created_at %>, Last updated at: <%= @transaction.updated_at %></p>
+</div>

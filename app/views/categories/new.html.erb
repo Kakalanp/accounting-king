@@ -1,0 +1,7 @@
+<h1>Add a new category:</h1>
+
+<%= form_with model: @category, method:'post', class:'form',url: categories_path do |form| %>
+      <%= form.text_field :icon, placeholder: 'Icon url' %>
+      <%= form.text_field :name, placeholder: 'Name', :required => true %>
+      <%= form.submit "Submit" %>
+    <% end %>
